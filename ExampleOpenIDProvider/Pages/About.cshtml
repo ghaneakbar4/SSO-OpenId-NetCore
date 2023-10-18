@@ -1,0 +1,28 @@
+﻿@page "{handler?}"
+@model ExampleOpenIDProvider.Pages.AboutModel
+@{
+    ViewData["Title"] = "About";
+}
+
+<h1>About</h1>
+
+<p>
+    This example demonstrates using the ComponentSpace OpenID Connect (OIDC) library to enable authentication
+    as the OpenID Provider (OP).
+</p>
+
+<h4>Product Information</h4>
+<p>
+    @Model.ProductInformation
+</p>
+<p>
+    This is <environment exclude="Development">not</environment> a development environment.
+</p>
+
+<h4>OpenID Provider Metadata</h4>
+<p>OpenID Provider metadata is a standard format for returning configuration information.</p>
+<p><a target="_blank" asp-area="" asp-controller="OpenID" asp-action="GetMetadata" class="btn btn-primary">OpenID Provider Metadata</a></p>
+
+<h4>OpenID Provider Keys</h4>
+<p>OpenID Provider keys is a standard format for returning key information.</p>
+<p><a target="_blank" asp-area="" asp-controller="OpenID" asp-action="GetKeys" class="btn btn-primary">OpenID Provider Keys</a></p>

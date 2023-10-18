@@ -1,0 +1,18 @@
+﻿@page
+@model ExampleOpenIDClient.Pages.AboutModel
+@{
+    ViewData["Title"] = "About";
+}
+
+<h1>About</h1>
+
+<p>
+    This example demonstrates authenticating to an OpenID Provider.
+</p>
+<p>
+    It uses the Microsoft OpenID Connect authentication handler.
+</p>
+
+<h4>OpenID Provider Metadata</h4>
+<p>OpenID Provider metadata is a standard format for returning configuration information.</p>
+<a class="btn btn-primary" href="@Model.MetadataUrl" target="_blank">OpenID Provider Metadata</a>

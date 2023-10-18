@@ -1,0 +1,27 @@
+﻿@page
+@model ExampleOpenIDClient.Pages.AuthorizedModel
+@{
+    ViewData["Title"] = "Authorized";
+}
+
+<h1>Authorized</h1>
+<p>This page is only accessible to authorized users.</p>
+
+<h4>Authenticated User Claims</h4>
+@{
+    if (User != null)
+    {
+        foreach (var claim in User.Claims)
+        {
+            <p>@claim.Type = @claim.Value</p>
+        }
+    }
+}
+<h4>Product Information</h4>
+<p>
+    @Model.ProductDisplayMessage
+</p>
+<p>
+    This is <environment exclude="Development">not</environment> a development environment.
+</p>
+

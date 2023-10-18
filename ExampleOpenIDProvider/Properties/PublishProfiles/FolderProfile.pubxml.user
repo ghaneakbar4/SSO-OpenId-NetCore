@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\ComponentSpace\Products\OpenID\Examples\NET-6.0\ExampleOpenIDProvider\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-11-01T07:38:05.3824677Z;True|2022-11-01T17:35:59.3952095+10:00;True|2022-11-01T17:34:35.9468432+10:00;True|2022-11-01T17:04:22.6306127+10:00;True|2022-11-01T17:01:46.2117320+10:00;True|2022-11-01T14:00:35.5563113+10:00;True|2022-11-01T13:55:44.1361706+10:00;True|2022-11-01T12:57:53.5026519+10:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
